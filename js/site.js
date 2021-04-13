@@ -17,11 +17,11 @@ function isPaladrome(userWord, revWord) {
     let user = userWord.toLowerCase();
     let outWord = revWord.toLowerCase();
     if (user === outWord) {
-        let repo = "IS";
+        let repo = "Yes";
         let outputWord = document.getElementById("palaOut");
         outputWord.innerText = repo;
     } else {
-        let repo = "NOT";
+        let repo = "No";
         let outputWord = document.getElementById("palaOut");
         outputWord.innerText = repo;
     }
