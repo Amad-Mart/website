@@ -1,7 +1,5 @@
 function reverseString() {
     let userWord = document.getElementById("tacoCat").value;
-    // let rgx = new Regex("\\s+");
-    // let cleanedWord = userWord.split(" ").join("");
     let cleanedWord = userWord.replace(/[^a-z0-9]|\s+|\r?\n|\r/gmi, "");
     let start = cleanedWord.length - 1;
     let revString = "";
